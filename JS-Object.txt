@@ -1,0 +1,23 @@
+************************ Object and its internal representation *********************************
+
+
+   A JS object is a collection of named values having state and behavior (properties and method).
+
+   Objects are variables too. But objects can contain many values.
+
+   example,
+
+         var car = "Audi";
+
+         var car = { Make: "Audi", Model: "C-Class", Color: "White"};
+
+    The values are written as Key:value pairs are called properties
+
+    JS objects are containers for named values
+
+    The object properties can be different primitive values, other objects and functions.
+
+    Properties can usually be changed, added, and deleted.
+
+    An object method is an object property containing a function definition.
+
