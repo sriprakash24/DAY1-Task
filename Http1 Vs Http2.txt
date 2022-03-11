@@ -1,0 +1,22 @@
+
+***************************************************  Diff B\w HTTP1 Vs HTTP2 *************************************************************
+
+	HTTP1 loads a single request for every TCP connection, while HTTP2 avoids network delay by using multiplexing.
+
+	HTTP1 used to process text commands to complete request-response cycles. HTTP2 will use binary commands to execute the same tasks.
+
+	HTTP is a network delay sensitive protocol so that if there is less network delay, then the page loads faster
+
+    HTTP/1.1 has a different technique called resource inlining, wherein the server includes the required source within the HTML page in response to the initial GET request.
+    So this technique reduces the number of requests that the client must send, the larger, non-text format files increase the size of the page.
+    As a result, the connection speed decreases, and the primary benefit obtained from it also nullifies.
+    Another drawback is the client cannot separate the inlined resources from the HTML page.
+    
+    HTTP/2 supports multiple simultaneous responses to the client’s initial GET request, the server provides the required resource along with the requested HTML page. 
+    This is called the server push process, this process fixes the main drawback of resource inlining by enabling the client machine to decide to cache/decline the pushed resource separate from the HTML page.
+
+    
+    HTTP/2 is much faster and more efficient than HTTP/1.1
+
+
+
